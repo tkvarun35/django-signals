@@ -20,12 +20,8 @@ views.py
 
 signals.py
 ```python 
-    print("process initiated")  
-    old_user=User.objects.all()
-    old_user.delete()
-    print("User object is to be created...")
-    user=User.objects.create_user(username="user1",password="anypass")
-    print("Process Ended")  
+    print("Signal started...")
+    print("Signal Ended...")
 ```
 
 
